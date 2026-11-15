@@ -1,0 +1,1 @@
+{"version":"v1","hooks":[{"name":"Check local consent behavior","trigger":"PostFileSave","matcher":"\\.cs$","action":{"type":"command","command":"dotnet run --project 01-local-consent/tests/Consent.Checks"}}]}

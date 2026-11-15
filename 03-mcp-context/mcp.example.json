@@ -1,0 +1,1 @@
+{"mcpServers":{"consent-demo":{"command":"node","args":["03-mcp-context/server.mjs"],"disabled":false}}}

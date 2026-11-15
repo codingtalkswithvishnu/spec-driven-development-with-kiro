@@ -1,0 +1,1 @@
+{"source":"fictional Confluence fixture","page":"consent-authorization","decision":"Use the authenticated subject for ownership. A patient identifier supplied in a request is not proof of identity.","openQuestion":"Define the audit retention and reviewer access before production use."}
