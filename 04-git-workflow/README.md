@@ -3,6 +3,22 @@
 Begin at a clean local checkpoint of your practice project or a clone of this
 reference repository. From that Git root, inspect:
 
+If the practice project has no Git history, run `git init` in its root first.
+Review `.gitignore` and `git status --short`; keep credentials, local session
+files, and build outputs out of the checkpoint. For the earlier practice files:
+
+```text
+git add -- .gitignore global.json feature-brief.md contracts.md learning-notes.md src tests .kiro
+git diff --cached
+git commit -m "Save reviewed local consent checkpoint"
+```
+
+Inspect the staged diff before committing. Configure your own Git identity if
+requested. A cloned reference already has history; skip the initialization step.
+If a listed path is missing, check the folder and earlier exercise outputs first.
+
+From the saved Git root:
+
 ```text
 git status --short
 git diff
